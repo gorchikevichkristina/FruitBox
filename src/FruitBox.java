@@ -20,6 +20,7 @@ class FruitBox<T extends IFruit> {
         return weigt;
     }
 
+    //* Рассчитать и вывести на экран вес каждой коробки с фруктами.
     public static void main(String[] args) {
         FruitBox<IFruit> fruitBox = new FruitBox<>();
         Apple apple = new Apple("Red", 0.15);
@@ -31,16 +32,16 @@ class FruitBox<T extends IFruit> {
         System.out.println("Вес первой коробки: " + fruitBox.getWeight());
 
         FruitBox<IFruit> fruitBox1 = new FruitBox<>();
-        Apple apple1 = new Apple("Red", 0.15);
-        Orange orange1 = new Orange("Moro", 0.16);
-        Banana banana1 = new Banana("Arvis", 0.2);
+        Apple apple1 = new Apple("Green", 0.2);
+        Orange orange1 = new Orange("Ohra", 0.1);
+        Banana banana1 = new Banana("Banana", 0.3);
         fruitBox.addFruit(apple1);
         fruitBox.addFruit(orange1);
         fruitBox.addFruit(banana1);
         System.out.println("Вес второй коробки: " + fruitBox1.getWeight());
     }
 /*
-* Рассчитать и вывести на экран вес каждой коробки с фруктами.
+
 * Сравнить вес двух коробок и вывести результат сравнения (равны или нет).
 * Пересыпать фрукты из одной коробки в другую так, чтобы тип фруктов в целевой коробке соответствовал типу исходной
   коробки
