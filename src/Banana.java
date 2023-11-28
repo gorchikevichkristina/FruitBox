@@ -11,4 +11,5 @@ public class Banana implements IFruit {
     public double getWeight() {
         return weight;
     }
+
 }

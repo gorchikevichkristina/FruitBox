@@ -11,4 +11,5 @@ public class Orange implements IFruit {
     public double getWeight() {
         return weight;
     }
+
 }

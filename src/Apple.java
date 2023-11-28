@@ -11,4 +11,6 @@ public class Apple implements IFruit {
     public double getWeight() {
         return weight;
     }
+
 }
+
