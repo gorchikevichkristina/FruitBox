@@ -1,3 +1,5 @@
+import java.util.Comparator;
+
 //общий интерфейс Fruit,
 //который будет содержать метод getWeight(), возвращающий вес фрукта.
 public interface IFruit {
