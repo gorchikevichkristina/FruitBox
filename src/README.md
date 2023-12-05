@@ -32,10 +32,12 @@
 
 > 5 принципов SOLID:
 
-Принцип единственной ответственности (Single responsibility).
-Принцип открытости/закрытости (Open-closed).
-Принцип подстановки Барбары Лисков (Liskov substitution).
-Принцип разделения интерфейса (Interface segregation).
-Принцип инверсии зависимостей (Dependency Invertion).
+* Принцип единственной ответственности (Single responsibility). 
+* Принцип открытости/закрытости (Open-closed).
+* Принцип подстановки Барбары Лисков (Liskov substitution).
+* Принцип разделения интерфейса (Interface segregation).
+* Принцип инверсии зависимостей (Dependency Invertion).
+
+> принцип Single responsibility в задании соблюден
 
 Формат сдачи: ссылка на гитхаб проект 
