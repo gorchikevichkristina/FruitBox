@@ -4,7 +4,7 @@ import java.util.List;
 
 //Создайте обобщенный класс FruitBox<T>, представляющий коробку с фруктами.
 class FruitBox<T extends IFruit> {
-    private List<T> fruitBox = new ArrayList<>();
+    private final List<T> fruitBox = new ArrayList<>();
 
     // метод для добавления фрукта в коробку.
     public void addFruit(T fruit) {
