@@ -38,7 +38,7 @@
 * Принцип разделения интерфейса (Interface segregation).
 * Принцип инверсии зависимостей (Dependency Invertion).
 
-> принцип Single responsibility в задании соблюден
-> принцип Interface segregation к коду не применим 
+> * принцип Single responsibility в задании соблюден
+> * принцип Interface segregation к коду не применим 
 
 Формат сдачи: ссылка на гитхаб проект 
