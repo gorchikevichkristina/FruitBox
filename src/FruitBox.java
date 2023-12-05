@@ -3,7 +3,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 //Создайте обобщенный класс FruitBox<T>, представляющий коробку с фруктами.
-class FruitBox<T extends IFruit> {
+class FruitBox<T extends IFruit> implements Box {
     private final List<T> fruitBox = new ArrayList<>();
 
     // метод для добавления фрукта в коробку.
@@ -12,6 +12,7 @@ class FruitBox<T extends IFruit> {
     }
 
     // метод для расчета веса коробки с фруктами. Предположим, что каждый фрукт имеет свой вес, который можно получить с помощью метода getWeight().
+    @Override
     public double getWeight() {
         double weigt = 0;
         for (T fruit : fruitBox) {
